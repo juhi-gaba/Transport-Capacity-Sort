@@ -1,10 +1,11 @@
+package dto;
 
 import com.google.gson.annotations.SerializedName;
 
 /**
  * @author Juhi Gaba
  */
-public class Plane extends Transport{
+public class Plane extends Transport {
 
     /**
      * Capacity of passengers in business class.

@@ -1,5 +1,10 @@
+package deserializer;
 
 import com.google.gson.*;
+import dto.Car;
+import dto.Plane;
+import dto.Train;
+import dto.Transport;
 
 import java.lang.reflect.Type;
 

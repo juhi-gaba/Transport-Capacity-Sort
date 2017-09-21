@@ -1,3 +1,9 @@
+package components;
+
+import dto.Car;
+import dto.Plane;
+import dto.Train;
+import dto.Transport;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -37,15 +43,15 @@ public class TransportDistinctCounter {
      * @return Map containing transport as keys and their values.
      */
     public Map<String, Long> getDistinctTransport() {
-        map.put("Car", (long)distinctCars.size());
-        map.put("Plane", (long)distinctPlanes.size());
-        map.put("Train", (long) distinctTrains.size());
+        map.put("dto.Car", (long)distinctCars.size());
+        map.put("dto.Plane", (long)distinctPlanes.size());
+        map.put("dto.Train", (long) distinctTrains.size());
         return map;
     }
 
     /**
      * Adds the transposrt to the set.
-     * @param transport Transport
+     * @param transport dto.Transport
      */
     public void addTransport(Transport transport){
 

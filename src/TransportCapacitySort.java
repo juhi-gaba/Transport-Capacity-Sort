@@ -1,6 +1,10 @@
 
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;
+import components.TransportCapacityCounter;
+import components.TransportDistinctCounter;
+import deserializer.TransportDeserializer;
+import dto.Transport;
 
 import java.io.*;
 import java.util.*;

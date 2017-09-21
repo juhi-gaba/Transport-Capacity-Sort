@@ -1,12 +1,13 @@
+package dto;
 
 import com.google.gson.annotations.SerializedName;
 
 /**
- * DTO for Car.
+ * DTO for dto.Car.
  *
  * @author Juhi Gaba
  */
-public class Car extends Transport{
+public class Car extends Transport {
 
     /**
      * Capacity of the passenger in a car.

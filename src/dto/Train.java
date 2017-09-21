@@ -1,10 +1,12 @@
+package dto;
 
 import com.google.gson.annotations.SerializedName;
+import dto.Transport;
 
 /**
  * @author Juhi Gaba
  */
-public class Train extends Transport{
+public class Train extends Transport {
 
     /**
      * Number of wagons.

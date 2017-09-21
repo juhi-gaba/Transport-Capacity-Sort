@@ -1,3 +1,10 @@
+package components;
+
+import dto.Car;
+import dto.Plane;
+import dto.Train;
+import dto.Transport;
+
 import java.util.*;
 
 /**
@@ -30,7 +37,7 @@ public class TransportCapacityCounter {
     /**
      * Calculate the capacity according to transport instance.
      *
-     * @param transport Transport.
+     * @param transport dto.Transport.
      */
     public void addTransport(Transport transport) {
         if (transport instanceof Plane) {
@@ -49,9 +56,9 @@ public class TransportCapacityCounter {
      */
    public Map<String, Long> getTotalCapacity() {
 
-       map.put("Car", totalCarCapacity);
-       map.put("Plane", totalPlaneCapacity);
-       map.put("Train", totalTrainCapacity);
+       map.put("dto.Car", totalCarCapacity);
+       map.put("dto.Plane", totalPlaneCapacity);
+       map.put("dto.Train", totalTrainCapacity);
 
        return map;
     }
